@@ -1,0 +1,76 @@
+.background-img{
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9
+}
+.text-bg-img{
+  display: block;
+  color: white;
+  max-width: 600px;
+}
+
+.elephant-img{
+  background-image: url(https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  height: 700px; 
+  background-position: 50% 70%;
+}
+.turtle-img{
+  background-image: url(https://images.pexels.com/photos/5968120/pexels-photo-5968120.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  height: 500px; 
+  background-position: 50% 70%;
+}
+
+.dear-img{
+  background-image: url(https://images.pexels.com/photos/3329812/pexels-photo-3329812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  height: 500px; 
+  background-position: 50% 65%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(161, 161, 161, 0.8);
+}
+
+.img-container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.img-offres{
+  height: 300px;
+}
+
+#copyrights {
+  background: #282727;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#copyrights p {
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+#copyrights a {
+  color: #74c9be;
+}
